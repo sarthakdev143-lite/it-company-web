@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/it-company-web/static/css/main.16930dfb.css",
-    "main.js": "/it-company-web/static/js/main.3e064e06.js",
+    "main.css": "/it-company-web/static/css/main.c39deef2.css",
+    "main.js": "/it-company-web/static/js/main.6b5e58eb.js",
     "static/js/453.ec59776f.chunk.js": "/it-company-web/static/js/453.ec59776f.chunk.js",
-    "static/media/bg.mp4": "/it-company-web/static/media/bg.7b5beb0d950e61d16987.mp4",
     "static/media/Skyra_Tech_logo.png": "/it-company-web/static/media/Skyra_Tech_logo.13577d234e29fa67be32.png",
     "static/media/poster.jpg": "/it-company-web/static/media/poster.964bbcb5297602d77441.jpg",
+    "static/media/SkyratechLight.png": "/it-company-web/static/media/SkyratechLight.a50c782fc3853655f04a.png",
     "static/media/HTML5.png": "/it-company-web/static/media/HTML5.2cd5d05c9660ec55992e.png",
     "static/media/NET.svg": "/it-company-web/static/media/NET.ab2b205a2693223d20eadbd57ff967a0.svg",
     "static/media/PostgresSQL.svg": "/it-company-web/static/media/PostgresSQL.7bc394e86ea1f692d59a3d484ad156af.svg",
@@ -43,12 +43,12 @@
     "static/media/Kotlin.svg": "/it-company-web/static/media/Kotlin.972dbf58257be1962e7953347f780377.svg",
     "static/media/Firebase.svg": "/it-company-web/static/media/Firebase.0d5ec3e60614ea8e4d7abbf0729e969b.svg",
     "static/media/Magneto.svg": "/it-company-web/static/media/Magneto.2ce36c7f6be09c2bae8cb4f6f5e24758.svg",
-    "main.16930dfb.css.map": "/it-company-web/static/css/main.16930dfb.css.map",
-    "main.3e064e06.js.map": "/it-company-web/static/js/main.3e064e06.js.map",
+    "main.c39deef2.css.map": "/it-company-web/static/css/main.c39deef2.css.map",
+    "main.6b5e58eb.js.map": "/it-company-web/static/js/main.6b5e58eb.js.map",
     "453.ec59776f.chunk.js.map": "/it-company-web/static/js/453.ec59776f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.16930dfb.css",
-    "static/js/main.3e064e06.js"
+    "static/css/main.c39deef2.css",
+    "static/js/main.6b5e58eb.js"
   ]
 }
