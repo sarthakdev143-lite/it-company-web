@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/it-company-web/static/css/main.a7833059.css",
+    "main.css": "/it-company-web/static/css/main.bbd3978f.css",
     "main.js": "/it-company-web/static/js/main.603a98ec.js",
     "static/js/453.ec59776f.chunk.js": "/it-company-web/static/js/453.ec59776f.chunk.js",
     "static/media/SkyraTech_Logo_Dark.png": "/it-company-web/static/media/SkyraTech_Logo_Dark.e143ebc8471e44a9e260.png",
@@ -43,12 +43,12 @@
     "static/media/Kotlin.svg": "/it-company-web/static/media/Kotlin.972dbf58257be1962e7953347f780377.svg",
     "static/media/Firebase.svg": "/it-company-web/static/media/Firebase.0d5ec3e60614ea8e4d7abbf0729e969b.svg",
     "static/media/Magneto.svg": "/it-company-web/static/media/Magneto.2ce36c7f6be09c2bae8cb4f6f5e24758.svg",
-    "main.a7833059.css.map": "/it-company-web/static/css/main.a7833059.css.map",
+    "main.bbd3978f.css.map": "/it-company-web/static/css/main.bbd3978f.css.map",
     "main.603a98ec.js.map": "/it-company-web/static/js/main.603a98ec.js.map",
     "453.ec59776f.chunk.js.map": "/it-company-web/static/js/453.ec59776f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a7833059.css",
+    "static/css/main.bbd3978f.css",
     "static/js/main.603a98ec.js"
   ]
 }
