@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/it-company-web/static/css/main.bbd3978f.css",
-    "main.js": "/it-company-web/static/js/main.603a98ec.js",
+    "main.css": "/it-company-web/static/css/main.3c0dd455.css",
+    "main.js": "/it-company-web/static/js/main.ece2373c.js",
     "static/js/453.ec59776f.chunk.js": "/it-company-web/static/js/453.ec59776f.chunk.js",
     "static/media/SkyraTech_Logo_Dark.png": "/it-company-web/static/media/SkyraTech_Logo_Dark.e143ebc8471e44a9e260.png",
     "static/media/Skyra_Tech_logo.png": "/it-company-web/static/media/Skyra_Tech_logo.13577d234e29fa67be32.png",
     "static/media/poster.jpg": "/it-company-web/static/media/poster.964bbcb5297602d77441.jpg",
     "static/media/HTML5.png": "/it-company-web/static/media/HTML5.2cd5d05c9660ec55992e.png",
+    "static/media/line.png": "/it-company-web/static/media/line.64043b9713a2661573d8.png",
     "static/media/NET.svg": "/it-company-web/static/media/NET.ab2b205a2693223d20eadbd57ff967a0.svg",
     "static/media/PostgresSQL.svg": "/it-company-web/static/media/PostgresSQL.7bc394e86ea1f692d59a3d484ad156af.svg",
     "static/media/MongoDB.svg": "/it-company-web/static/media/MongoDB.6835c61a518a732eb8318d43dfe8f700.svg",
@@ -43,12 +44,12 @@
     "static/media/Kotlin.svg": "/it-company-web/static/media/Kotlin.972dbf58257be1962e7953347f780377.svg",
     "static/media/Firebase.svg": "/it-company-web/static/media/Firebase.0d5ec3e60614ea8e4d7abbf0729e969b.svg",
     "static/media/Magneto.svg": "/it-company-web/static/media/Magneto.2ce36c7f6be09c2bae8cb4f6f5e24758.svg",
-    "main.bbd3978f.css.map": "/it-company-web/static/css/main.bbd3978f.css.map",
-    "main.603a98ec.js.map": "/it-company-web/static/js/main.603a98ec.js.map",
+    "main.3c0dd455.css.map": "/it-company-web/static/css/main.3c0dd455.css.map",
+    "main.ece2373c.js.map": "/it-company-web/static/js/main.ece2373c.js.map",
     "453.ec59776f.chunk.js.map": "/it-company-web/static/js/453.ec59776f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bbd3978f.css",
-    "static/js/main.603a98ec.js"
+    "static/css/main.3c0dd455.css",
+    "static/js/main.ece2373c.js"
   ]
 }
