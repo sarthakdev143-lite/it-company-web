@@ -1,6 +1,8 @@
 import React from 'react';
 import Card from './Card';
 import './CardsSection.css';
+import { useGSAP } from '@gsap/react';
+import gsap from 'gsap';
 
 const cardsData = [
     {
@@ -40,14 +42,44 @@ const cardsData = [
     }
 ];
 
-const CardsSection = () => (
-    <section id='cards' className='flex relative'>
-        {cardsData.map((card, index) => (
-            <Card key={index} image={card.image} number={card.number} title={card.title}>
-                {card.content}
-            </Card>
-        ))}
-    </section>
-);
+const CardsSection = () => {
 
-export default CardsSection;
+    useGSAP(() => {
+        const cards = document.querySelectorAll("#card");
+
+        const animateCards = (elements) => {
+            gsap.from(elements, {
+                opacity: 0,
+                duration: 0.5,
+                stagger: 0.15,
+                y: -30,
+                scrollTrigger: {
+                    trigger: elements,
+                    scroller: "body",
+                    start: "top 90%",
+                }
+            });
+        };
+
+        if (window.innerWidth > 1004) {
+            // This Should Work For Desktops
+            animateCards(cards);
+        } else {
+            // This Should Work For Mobile Devices
+            cards.forEach(card => animateCards(card));
+        }
+    });
+
+
+    return (
+        <section id='cards' className='flex relative'>
+            {cardsData.map((card, index) => (
+                <Card key={index} image={card.image} number={card.number} title={card.title}>
+                    {card.content}
+                </Card>
+            ))}
+        </section>
+    )
+}
+
+export default CardsSection

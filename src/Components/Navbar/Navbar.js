@@ -3,6 +3,7 @@ import SideMenu from './SideMenu'
 import '../littles.css';
 import './Navbar.css';
 import { NavLink } from 'react-router-dom';
+
 const Navbar = () => {
     const [isSideMenuActive, setIsSideMenuActive] = useState(false);
 
@@ -24,7 +25,7 @@ const Navbar = () => {
 
     return (
         <>
-            <div id='navbar-wrapper'>
+            <div id='navbar-wrapper' className='stagger1'>
                 <header className='faic center1'>
                     <nav className='faic'>
                         <section className='faic'>

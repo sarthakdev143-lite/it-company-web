@@ -1,7 +1,32 @@
-import React from 'react'
-import './BusinessOpportunities.css'
+import React from 'react';
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import './BusinessOpportunities.css';
+import { useGSAP } from '@gsap/react';
+
+gsap.registerPlugin(ScrollTrigger);
 
 const BusinessOpportunities = () => {
+    useGSAP(() => {
+        const counters = document.querySelectorAll('.content h1 span');
+        counters.forEach(counter => {
+            gsap.fromTo(counter,
+                { innerText: 0 },
+                {
+                    innerText: 100,
+                    scrollTrigger: {
+                        trigger: counter,
+                        start: 'top 105%',
+                    },
+                    duration: 2,
+                    snap: { innerText: 1 },
+                    onUpdate: function () {
+                        counter.innerText = Math.round(counter.innerText);
+                    }
+                }
+            );
+        });
+    }, []);
 
     return (
         <section id='business-opportunities'>
@@ -55,7 +80,7 @@ const BusinessOpportunities = () => {
                 <p>Websites offer the best visual representation for any business. Our web development services encompass UI/UX design, graphic design, wireframing, prototyping, and the creation of customized web page content using industry-standard fonts and colors to ensure a user-friendly experience. A well-designed website enhances a business’s credibility across all industries. To achieve the perfect website, it is essential to hire a leading web development company that can deliver :-</p>
             </article>
         </section>
-    )
-}
+    );
+};
 
-export default BusinessOpportunities
+export default BusinessOpportunities;
