@@ -8,6 +8,7 @@ import './Home.css';
 import DevelopmentProcess from './SubComponents/DevelopmentProcess/DevelopmentProcess';
 
 const Home = () => {
+
     return (
         <>
             <main id='home-main' className='stagger1'>

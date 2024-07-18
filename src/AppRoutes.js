@@ -3,9 +3,9 @@ import { Routes, Route } from 'react-router-dom';
 import Layout from './Layout';
 import NoPage from './Components/NoPage/NoPage';
 import useDocumentTitle from './Components/useDocumentTitle';
-import Home from './Components/Home/Home';
 
 // Lazy loading components
+const Home = lazy(() => import('./Components/Home/Home'));
 const AboutUs = lazy(() => import('./Components/AboutUs/AboutUs'));
 const Policy = lazy(() => import('./Components/Policy/Policy'));
 
@@ -78,7 +78,7 @@ const AppRoutes = () => {
     useDocumentTitle(titles);
 
     return (
-        <Suspense fallback={<div>Loading...</div>}>
+        <Suspense fallback={<></>}>
             <Routes>
                 <Route path="/" element={<Layout />}>
                     <Route index element={<Home />} />
