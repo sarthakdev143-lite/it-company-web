@@ -14,7 +14,7 @@ const Home = () => {
             <main id='home-main' className='stagger1'>
                 <div id='content' className='fdc faic'>
                     <div id="background">
-                        <video loading='lazy' poster={require('./poster.jpg')} preload='none' src={require('./bg.webm')} autoPlay loop muted></video>
+                        <video loading='lazy' src={require('./bg.webm')} autoPlay loop muted></video>
                         <div id='blur'></div>
                     </div>
                     <LandingContent />
