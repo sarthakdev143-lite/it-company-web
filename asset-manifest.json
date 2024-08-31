@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/it-company-web/static/css/main.cf524f32.css",
-    "main.js": "/it-company-web/static/js/main.6f66757c.js",
+    "main.js": "/it-company-web/static/js/main.3878e243.js",
     "static/css/33.3cc960fa.chunk.css": "/it-company-web/static/css/33.3cc960fa.chunk.css",
-    "static/js/33.60a4842c.chunk.js": "/it-company-web/static/js/33.60a4842c.chunk.js",
+    "static/js/33.90b2d41a.chunk.js": "/it-company-web/static/js/33.90b2d41a.chunk.js",
     "static/css/88.9ac6c521.chunk.css": "/it-company-web/static/css/88.9ac6c521.chunk.css",
     "static/js/88.7d75db07.chunk.js": "/it-company-web/static/js/88.7d75db07.chunk.js",
     "static/css/275.a18235b7.chunk.css": "/it-company-web/static/css/275.a18235b7.chunk.css",
@@ -54,7 +54,7 @@
     "static/js/722.d078ef65.chunk.js": "/it-company-web/static/js/722.d078ef65.chunk.js",
     "static/js/426.11d7a18b.chunk.js": "/it-company-web/static/js/426.11d7a18b.chunk.js",
     "static/js/530.16435f6f.chunk.js": "/it-company-web/static/js/530.16435f6f.chunk.js",
-    "static/media/bg.webp": "/it-company-web/static/media/bg.1813175f9ad7bd215bb2.webp",
+    "static/media/bg.webm": "/it-company-web/static/media/bg.a4a74edecfc346ceb805.webm",
     "static/media/SkyraTech_Logo_Dark.png": "/it-company-web/static/media/SkyraTech_Logo_Dark.e143ebc8471e44a9e260.png",
     "static/media/Skyra_Tech_logo.png": "/it-company-web/static/media/Skyra_Tech_logo.13577d234e29fa67be32.png",
     "static/media/design-prototyping.png": "/it-company-web/static/media/design-prototyping.e6c99537798903fed228.png",
@@ -99,9 +99,9 @@
     "static/media/Firebase.svg": "/it-company-web/static/media/Firebase.0d5ec3e60614ea8e4d7abbf0729e969b.svg",
     "static/media/Magneto.svg": "/it-company-web/static/media/Magneto.2ce36c7f6be09c2bae8cb4f6f5e24758.svg",
     "main.cf524f32.css.map": "/it-company-web/static/css/main.cf524f32.css.map",
-    "main.6f66757c.js.map": "/it-company-web/static/js/main.6f66757c.js.map",
+    "main.3878e243.js.map": "/it-company-web/static/js/main.3878e243.js.map",
     "33.3cc960fa.chunk.css.map": "/it-company-web/static/css/33.3cc960fa.chunk.css.map",
-    "33.60a4842c.chunk.js.map": "/it-company-web/static/js/33.60a4842c.chunk.js.map",
+    "33.90b2d41a.chunk.js.map": "/it-company-web/static/js/33.90b2d41a.chunk.js.map",
     "88.9ac6c521.chunk.css.map": "/it-company-web/static/css/88.9ac6c521.chunk.css.map",
     "88.7d75db07.chunk.js.map": "/it-company-web/static/js/88.7d75db07.chunk.js.map",
     "275.a18235b7.chunk.css.map": "/it-company-web/static/css/275.a18235b7.chunk.css.map",
@@ -155,6 +155,6 @@
   },
   "entrypoints": [
     "static/css/main.cf524f32.css",
-    "static/js/main.6f66757c.js"
+    "static/js/main.3878e243.js"
   ]
 }
