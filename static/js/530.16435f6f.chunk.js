@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkit_company_web=self.webpackChunkit_company_web||[]).push([[530],{1008:(a,s,t)=>{t.d(s,{A:()=>c});t(5043);const c=t.p+"static/media/Java.a751bad6c81431ab4dd6fa6632a65540.svg"},825:(a,s,t)=>{t.d(s,{A:()=>c});t(5043);const c=t.p+"static/media/NET.ab2b205a2693223d20eadbd57ff967a0.svg"},2838:(a,s,t)=>{t.d(s,{A:()=>c});t(5043);const c=t.p+"static/media/Python.ffa1251f749f6ab8768c5f32548e5b14.svg"},1838:()=>{}}]);
+//# sourceMappingURL=530.16435f6f.chunk.js.map
