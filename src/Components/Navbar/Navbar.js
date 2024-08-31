@@ -3,6 +3,7 @@ import SideMenu from './SideMenu'
 import '../littles.css';
 import './Navbar.css';
 import { NavLink } from 'react-router-dom';
+
 const Navbar = () => {
     const [isSideMenuActive, setIsSideMenuActive] = useState(false);
 
@@ -24,13 +25,13 @@ const Navbar = () => {
 
     return (
         <>
-            <div id='navbar-wrapper'>
+            <div id='navbar-wrapper' className='stagger1'>
                 <header className='faic center1'>
                     <nav className='faic'>
                         <section className='faic'>
                             <NavLink to='/'>
                                 <figure>
-                                    <img loading='lazy' src={require('./Skyra_Tech_logo.png')} alt='Logo' />
+                                    <img id='logo' loading='lazy' src={require('./Skyra_Tech_logo.png')} alt='Logo' />
                                 </figure>
                             </NavLink>
                         </section>
@@ -72,6 +73,11 @@ const Navbar = () => {
                                         <li className='faic'>
                                             <NavLink to='wireframing-&-prototyping'>
                                                 Wireframing & Prototyping
+                                            </NavLink>
+                                        </li>
+                                        <li className='faic'>
+                                            <NavLink to='managed-services'>
+                                                Managed Services
                                             </NavLink>
                                         </li>
                                     </ul>
@@ -187,11 +193,8 @@ const Navbar = () => {
                                     </NavLink>
                                 </li>
                             </ul>
-                            <ul type='none' className='faic s-gap'>
-                                <li id='get-free-esti'>Get Free Estimation</li>
-                            </ul>
                         </section>
-                        <section className='faic m-gap'>
+                        <section className='faic'>
                             <span class="menu-icon pointer material-symbols-outlined">
                                 menu
                             </span>
@@ -199,6 +202,9 @@ const Navbar = () => {
                     </nav>
                 </header>
             </div>
+            <NavLink to='/get-free-estimation'>
+                <li type='none' id='get-free-esti' className='responsive'>Get Free Estimation</li>
+            </NavLink>
             <SideMenu isActive={isSideMenuActive} closeMenu={() => setIsSideMenuActive(false)} />
         </>
     )

@@ -6,13 +6,15 @@
 
     #part-1 {
         width: 100%;
+        position: relative;
 
         aside {
-            width: 50%;
+            width: 50rem;
             height: 48rem;
             flex-direction: column;
             align-items: flex-start;
-            justify-content: center;
+            justify-content: flex-start;
+            padding-top: 20%;
             gap: 1.5rem;
 
             h1 {
@@ -56,7 +58,15 @@
 
         h1 {
             display: flex;
-            gap: 1.2rem;
+            white-space: nowrap;
+
+            p:nth-child(1) {
+                margin-right: 1.2rem;
+            }
+
+            #child2 {
+                margin-left: 1.2rem;
+            }
 
             span {
                 color: var(--web-theme-color);
@@ -64,9 +74,9 @@
         }
 
         button {
-            width: 28rem;
+            width: 25rem;
             border-radius: 10rem;
-            height: 5.5rem;
+            height: 5rem;
             border: none;
             cursor: pointer;
             font-weight: bolder;
@@ -111,6 +121,25 @@
 
         button {
             width: 20rem !important;
+        }
+    }
+}
+
+@media (max-width: 740px) {
+    #part-2 {
+        h1 {
+            flex-direction: column;
+            width: 100%;
+            align-items: center;
+
+            p:nth-child(1),
+            #child2 {
+                margin: 0 !important;
+            }
+        }
+
+        button {
+            scale: 0.9;
         }
     }
 }

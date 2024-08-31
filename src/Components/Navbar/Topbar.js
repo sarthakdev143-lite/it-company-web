@@ -1,9 +1,10 @@
 import React from 'react'
 import './Topbar.css'
+import { NavLink } from 'react-router-dom'
 
 const Topbar = () => {
     return (
-        <header id='header' className='faic center1'>
+        <header id='header' className='faic center1 stagger1'>
             <div id='top-navbar-wrapper' className='faic'>
                 <nav>
                     <ul type='none' className='faic'>
@@ -24,7 +25,9 @@ const Topbar = () => {
                         <li className='pointer'><i class="ri-youtube-fill"></i></li>
                     </ul>
                     <ul type='none' className='faic s-gap'>
-                        <li id='get-free-esti'>Get Free Estimation</li>
+                        <NavLink to='/get-free-estimation' style={{textDecoration: "none"}}>
+                            <li id='get-free-esti'>Get Free Estimation</li>
+                        </NavLink>
                     </ul>
                 </nav>
             </div>

@@ -56,8 +56,8 @@
         justify-content: space-around;
 
         form {
-            max-width: 100%;
-            min-width: 32rem;
+            width: 45rem;
+            min-width: 24rem;
             padding: 2rem;
             border: 1px solid #ccc;
             border-radius: 0.5rem;

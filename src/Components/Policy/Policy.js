@@ -7,7 +7,7 @@ const Policy = () => {
     <>
       <main id='policy-container'>
         <h1 id='heading'>
-          <span>Privacy Policies Of Skyra Tech Solution Pvt. Ltd</span><hr />
+          <span># Privacy Policies Of Skyra Tech Solution Pvt. Ltd</span><hr />
         </h1>
         <p>
           Skyra Tech Solution Pvt. Ltd is committed to protecting the privacy and security of your personal

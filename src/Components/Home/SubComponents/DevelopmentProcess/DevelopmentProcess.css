@@ -1,0 +1,130 @@
+#development-process {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+
+    #heading {
+        font-size: 2.5rem;
+    }
+
+    .card-container {
+        display: flex;
+        position: relative;
+
+        #next1 {
+            width: 6rem;
+            height: 6rem;
+            margin-top: 80%;
+        }
+
+        #next2 {
+            font-size: 6rem;
+            color: #d4daec;
+            display: none;
+        }
+
+        .card {
+            width: 25rem;
+            height: fit-content;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+
+            &:nth-child(1) figure::after {
+                content: '1';
+            }
+
+            &:nth-child(3) figure::after {
+                content: '2';
+            }
+
+            &:nth-child(5) figure::after {
+                content: '3';
+            }
+
+            figure {
+                width: 14rem;
+                height: 14rem;
+                position: relative;
+                scale: 1.05;
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    top: 0.35rem;
+                    left: 0.35rem;
+                    border-radius: 50%;
+                    width: 3rem;
+                    height: 3rem;
+                    background-color: var(--web-theme-color);
+                    color: #fff;
+                    display: grid;
+                    place-items: center;
+                    font-size: 1.5rem;
+                }
+
+                &::before {
+                    border-radius: 50%;
+                    content: '';
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    border: 0.12rem dashed var(--dark-web-theme-color);
+                    animation: rotate 18s infinite linear;
+                }
+
+                img {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-49.4%, -49.4%);
+                }
+            }
+
+            article {
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                gap: 0.5rem;
+
+                h1 {
+                    font-size: 1.8rem;
+                }
+
+                p {
+                    font-size: 1.2rem;
+                    color: grey;
+                    font-weight: 100;
+                }
+            }
+        }
+    }
+}
+
+@keyframes rotate {
+    100% {
+        rotate: 360deg;
+    }
+}
+
+@media (max-width: 1060px) {
+    .card-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+
+        #next1 {
+            display: none;
+        }
+
+        #next2 {
+            display: block !important;
+        }
+
+        .card {
+            width: 80% !important;
+        }
+    }
+}

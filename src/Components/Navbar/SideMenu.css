@@ -4,7 +4,6 @@
     top: 0;
     z-index: 999999;
     height: 100%;
-    width: 33.5rem;
     padding: 2.5rem 4.5rem;
     gap: 3rem;
     display: flex;
@@ -12,6 +11,7 @@
     background: #fff;
     transition: all ease 0.5s;
     box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.5);
+    width: 33.5rem !important;
     margin-right: -100%;
 
     &.active {
@@ -20,24 +20,23 @@
 
     &>div {
         max-height: 100%;
-        overflow-y: scroll;
         gap: 1.8rem;
         display: flex;
         flex-direction: column;
     }
-
+    
     .close-side-menu {
         position: absolute;
         right: 2.5rem;
         font-size: 1.5rem;
     }
-
+    
     figure {
         width: 100%;
         height: fit-content;
         display: flex;
         flex-direction: column;
-
+        
         img {
             margin-left: -1.5rem;
             width: 100%;

@@ -4,10 +4,12 @@ import './Career.css'
 const Career = () => {
     return (
         <section className='career'>
-            <h2>Join Our Team</h2>
-            <p>
-                At Skyra Tech Solutions Pvt Ltd, we believe in fostering a culture of innovation, collaboration, and continuous learning. We are always looking for talented individuals who are passionate about technology and eager to make an impact in the IT industry. Please submit the form with all the mentioned details, and our HR will contact you shortly.
-            </p>
+            <div>
+                <h2>Join Our Team</h2>
+                <p>
+                    At Skyra Tech Solutions Pvt Ltd, we believe in fostering a culture of innovation, collaboration, and continuous learning. We are always looking for talented individuals who are passionate about technology and eager to make an impact in the IT industry. Please submit the form with all the mentioned details, and our HR will contact you shortly.
+                </p>
+            </div>
             <form action="/submit-application" method="POST" encType="multipart/form-data">
                 <div>
                     <h3>Personal Information:</h3>

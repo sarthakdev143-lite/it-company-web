@@ -7,6 +7,11 @@
   font-family: poppins;
 }
 
+html {
+  scroll-behavior: smooth;
+  overflow: hidden;
+}
+
 html,
 body {
   width: 100%;
@@ -31,5 +36,6 @@ code {
 
 :root {
   --web-theme-color: #e78001;
-  --footer-color: #cf7200;
+  --dark-web-theme-color: #d87700;
+  --footer-color: #111;
 }

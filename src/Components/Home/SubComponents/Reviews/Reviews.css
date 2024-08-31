@@ -1,10 +1,9 @@
 #reviews {
-    width: 85%;
-    justify-content: space-evenly;
+    width: 87%;
+    justify-content: space-around;
 
     aside {
         height: 100%;
-        width: 25%;
         gap: 0.8rem;
 
         h1 {
@@ -33,10 +32,16 @@
         width: 75%;
         height: 100%;
         position: relative;
+        /* background: black; */
 
         .slick-slider {
             overflow: hidden;
             display: flex;
+        }
+
+        .slick-track {
+            display: flex;
+            gap: 0.5rem;
         }
 
         .navigation-button button {
@@ -133,5 +138,26 @@
                 }
             }
         }
+    }
+}
+
+@media (max-width: 800px) {
+    #reviews {
+        width: 95%;
+        /* display: flex; */
+        /* gap: 1rem; */
+    }   
+}
+
+@media (max-width: 600px) {
+    #reviews {
+        width: 100%;
+        display: flex;
+        gap: 4rem;
+        flex-direction: column;
+    }   
+
+    #carousel-wrapper {
+        width: 97% !important;
     }
 }

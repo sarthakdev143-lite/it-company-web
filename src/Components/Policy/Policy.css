@@ -1,5 +1,5 @@
 #policy-container {
-    margin: 4rem;
+    margin: 4rem 4rem;
     padding: 3rem;
     height: fit-content;
     background: #fff;
@@ -13,17 +13,16 @@
         align-items: center;
         gap: 1rem;
 
+        span {
+            display: inline-block;
+            /* background: red; */
+        }
+
         hr {
             width: 5rem;
             height: 0.45rem;
             background: #00C6CF;
             border: none;
-        }
-
-        &::before {
-            content: '#';
-            position: absolute;
-            left: -1.8rem;
         }
     }
 
@@ -87,6 +86,26 @@
             padding: 1rem;
             background: #f9f9f9;
             border-radius: 5px;
+        }
+    }
+}
+
+@media (max-width: 530px) {
+    #policy-container {
+        margin: 4rem 1.5rem;
+        padding: 1.5rem;
+
+        #heading {
+            display: inline-block;
+            
+            hr {
+                width: 100% !important;
+                margin-top: 1rem;
+            }
+        }
+
+        section {
+            padding: 1.5rem;
         }
     }
 }

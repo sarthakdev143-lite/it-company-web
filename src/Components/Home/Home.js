@@ -5,21 +5,22 @@ import Reviews from './SubComponents/Reviews/Reviews';
 import Footer from '../Footer/Footer';
 import BusinessOpportunities from './SubComponents/BusinessOpportunities/BusinessOpportunities';
 import './Home.css';
+import DevelopmentProcess from './SubComponents/DevelopmentProcess/DevelopmentProcess';
 
 const Home = () => {
+
     return (
         <>
-            <main id='home-main'>
+            <main id='home-main' className='stagger1'>
                 <div id='content' className='fdc faic'>
                     <div id="background">
-                        <img style={{ width: "100%" }} src={require("./poster.jpg")} alt="Background Image" />
-                        {/* Commented it As it Was Lagging Too Much On My Device*/}
-                        {/* <video loading='lazy' poster={require('./poster.jpg')} preload='none' src={require('./bg.mp4')} autoPlay loop muted></video> */}
+                        <video loading='lazy' src={require('./bg.webm')} autoPlay loop muted></video>
                         <div id='blur'></div>
                     </div>
                     <LandingContent />
                     <BusinessOpportunities />
                     <CardsSection />
+                    <DevelopmentProcess />
                     <hr style={{ width: '100%', filter: 'brightness(1.3)' }} />
                     <Reviews />
                     <Footer />

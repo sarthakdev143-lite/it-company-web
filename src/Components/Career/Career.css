@@ -2,15 +2,18 @@
     max-width: 55rem;
     margin: 0 auto;
     padding: 4rem 1.25rem;
+    padding-bottom: 5rem;
 
-    h2 {
-        font-size: 2rem;
-    }
+    &>div {
+        h2 {
+            font-size: 2rem;
+        }
 
-    p {
-        font-size: 1.2rem;
-        line-height: 1.5;
-        margin-bottom: 1.875rem;
+        p {
+            font-size: 1.2rem;
+            line-height: 1.5;
+            margin-bottom: 1.875rem;
+        }
     }
 
     form {
@@ -39,7 +42,7 @@
             transition: border-color 0.3s;
             color: var(--web-theme-color);
             background: #fff;
-            
+
             &::placeholder {
                 color: var(--web-theme-color);
             }
